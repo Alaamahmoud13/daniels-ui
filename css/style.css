@@ -1,0 +1,662 @@
+.home {
+    background-image: url(../images/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.634);
+}
+
+.home h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+h1 {
+    position: relative;
+    width: 100%;
+}
+
+h1::after {
+    position: absolute;
+    content: " ";
+    animation: typing 10s infinite;
+    width: 100%;
+    left: 0%;
+}
+
+
+.cosial-icons span {
+    width: 35px;
+    font-size: 14px;
+    height: 35px;
+    padding: 15px;
+    margin-left: 5px;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+
+
+.navbar .navbar-brand {
+    color: white;
+    margin-left: 50px;
+    font-weight: 800;
+}
+
+.cosial-icons a {
+    text-decoration: none;
+
+}
+
+
+.navbar .nav-item .nav-link {
+    color: white;
+
+}
+
+.navbar .nav-item .nav-link.active {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.about h2 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+.about span {
+    font-weight: 700;
+    color: #748182;
+    font-size: 15px;
+}
+
+.about-content {
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+
+}
+
+.progress {
+    height: 25px !important;
+
+
+}
+
+.progress-bar {
+    display: inline-block !important;
+    height: 25px !important;
+    padding-top: 3px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+
+}
+
+.progress-bar span {
+    margin-left: 80%;
+}
+
+.btn1 {
+    transition: all 1s;
+}
+
+.btn2 {
+    border: 1;
+    border-color: black !important;
+    transition: all 1s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 100px;
+    right: 80px;
+
+
+}
+
+.parent img {
+    width: 95%;
+}
+
+
+
+.services {
+    background-color: #f7f7f7;
+}
+
+
+
+
+.service-item span {
+    width: 60px;
+    font-size: 14px;
+    height: 30px;
+    padding: 20px;
+    margin-left: 5px;
+    line-height: 35px;
+    color: Black;
+    border-radius: 70%;
+    background: #f4f4f4;
+
+
+}
+
+.service-item p {
+    padding-left: 10px;
+
+}
+
+.service-item:hover span {
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+.portfolio-layer span {
+    width: 25px;
+    font-size: 12px;
+    height: 25px;
+    padding: 10px;
+    margin-left: 5px;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+    background: black;
+
+}
+
+.portfolio-layer span:hover {
+
+    color: black;
+
+    background: white;
+
+}
+
+
+
+
+
+.portfolio-layer {
+
+    position: absolute;
+    background-color: white;
+    width: 97%;
+    height: 96%;
+    top: 5;
+    right: 5;
+    left: 5;
+    bottom: 5;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.portofolio-item:hover .portfolio-layer {
+    opacity: 1;
+
+
+
+}
+
+.portfolio-icon {
+    position: absolute;
+    top: 70%;
+    transition: all 1s;
+}
+
+.portofolio-item:hover .portfolio-icon {
+    top: 50%;
+    margin-top: 10px;
+}
+
+.potofolio-content h1 {
+    position: absolute;
+    bottom: 70%;
+    transition: all 1s;
+
+}
+
+.portofolio-item:hover .portfolio-content h1 {
+
+    bottom: 50%;
+}
+
+.potofolio-content {
+    overflow: hidden;
+}
+
+.Portfolio .nav-link.active {
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+
+.Portfolio .nav-link {
+    color: #748182;
+
+}
+
+
+
+
+.Testimonials-header h2 {
+    font-weight: 800;
+
+}
+
+.Testimonials {
+    background-color: #f7f7f7;
+}
+
+.our-blog {
+    background-color: #f7f7f7;
+
+}
+
+.our-blog .more a{
+color: black !important;
+}
+
+
+.carousel-indicators button {
+
+    background-color: #869791 !important;
+    width: 15px;
+    height: 10px;
+    /* margin: 5px 7px; */
+    display: block;
+    border-radius: 50%;
+
+}
+
+.Testimonials .hero {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.Testimonials .hero img {
+
+
+    border-radius: 50% !important;
+}
+
+.numbers h3 {
+    margin: 20px 0px !important;
+    font-weight: 800;
+}
+
+.numbers p {
+    font-weight: 800;
+}
+
+
+.contatct-us span {
+
+    width: 40px;
+    font-size: 16px;
+    height: 35px;
+    padding: 15px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 25px;
+    color: black;
+    border-radius: 50%;
+    background: rgba(154, 151, 151, 0.3);
+
+
+}
+
+.contatct-us span:hover {
+
+    color: white;
+    background: black;
+
+}
+
+#form_message {
+
+
+    margin-left: 40px;
+    height: 150px !important;
+    border: none;
+    background-color: #f4f4f4;
+    width: 93%;
+    border-radius: 5px;
+}
+
+#form_name {
+    background-color: #f4f4f4;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#form_email {
+
+    background-color: #f4f4f4;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contatct-us .btn {
+
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+    margin-left: 40px;
+    text-align: center !important;
+}
+
+.footer p {
+
+    color: #869791;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* I Am Larry DanielsDeveloperDesigner */
+
+
+
+@keyframes typing {
+
+
+    0% {
+        content: " I Am  L   |";
+    }
+
+    2% {
+        content: " I Am  La   |";
+    }
+
+    4% {
+        content: " I Am  Lar  |";
+    }
+
+    6% {
+        content: " I Am  Larr  |";
+    }
+
+    8% {
+        content: " I Am  Larry   |";
+    }
+
+    10% {
+        content: " I Am  Larry   |";
+    }
+
+    12% {
+        content: " I Am  Larry D   |";
+    }
+
+    14% {
+        content: " I Am  Larry Da  |";
+    }
+
+    16% {
+        content: " I Am  Larry Dan |";
+    }
+
+    18% {
+        content: " I Am  Larry Dani |";
+    }
+
+    20% {
+        content: " I Am  Larry Danie |";
+    }
+
+    22% {
+        content: " I Am  Larry Daniel |";
+    }
+
+    24% {
+        content: " I Am  Larry Daniels |";
+    }
+
+    26% {
+        content: " I Am  Larry Daniel |";
+    }
+
+    28% {
+        content: " I Am  Larry Danie |";
+    }
+
+    30% {
+        content: " I Am  Larry Dani |";
+    }
+
+    32% {
+        content: " I Am  Larry Dan|";
+    }
+
+    34% {
+        content: " I Am  Larry Da|";
+    }
+
+    36% {
+        content: " I Am  Larry D|";
+    }
+
+    38% {
+        content: " I Am  Larry |";
+    }
+
+    40% {
+        content: " I Am  Larry|";
+    }
+
+    42% {
+        content: " I Am  Larr |";
+    }
+
+    44% {
+        content: " I Am  Lar|";
+    }
+
+    46% {
+        content: " I Am  La|";
+    }
+
+    48% {
+        content: " I Am  L|";
+    }
+
+    50% {
+        content: " I Am  |";
+    }
+
+    52% {
+        content: " I Am  |";
+    }
+
+    54% {
+        content: " I Am D |";
+    }
+
+    56% {
+        content: " I Am De |";
+    }
+
+    58% {
+        content: " I Am Dev |";
+    }
+
+    60% {
+        content: " I Am Deve |";
+    }
+
+    62% {
+        content: " I Am Devel |";
+    }
+
+    64% {
+        content: " I Am Develo |";
+    }
+
+    66% {
+        content: " I Am Develop |";
+    }
+
+    68% {
+        content: " I Am Develope |";
+    }
+
+    70% {
+        content: " I Am Developer |";
+    }
+
+    72% {
+        content: " I Am Develope |";
+    }
+
+    74% {
+        content: " I Am Develop |";
+    }
+
+    76% {
+        content: " I Am Develo |";
+    }
+
+    78% {
+        content: " I Am Devel |";
+    }
+
+    80% {
+        content: " I Am Deve |";
+    }
+
+    81% {
+        content: " I Am Dev |";
+    }
+
+    83% {
+        content: " I Am De |";
+    }
+
+    84% {
+        content: " I Am D |";
+    }
+
+    85% {
+        content: " I Am  |";
+    }
+
+    86% {
+        content: " I Am D |";
+    }
+
+    87% {
+        content: " I Am De |";
+    }
+
+    98% {
+        content: " I Am Des |";
+    }
+
+    89% {
+        content: " I Am Desi |";
+    }
+
+    90% {
+        content: " I Am Desig |";
+    }
+
+    91% {
+        content: " I Am Design |";
+    }
+
+    92% {
+        content: " I Am Designe |";
+    }
+
+    93% {
+        content: " I Am Designer |";
+    }
+
+    94% {
+        content: " I Am Designe |";
+    }
+
+    95% {
+        content: " I Am Design |";
+    }
+
+    96% {
+        content: " I Am Desi |";
+    }
+
+    97% {
+        content: " I Am Des |";
+    }
+
+    98% {
+        content: " I Am De |";
+    }
+
+    99% {
+        content: " I Am D |";
+    }
+
+    100% {
+        content: " I Am |";
+    }
+
+
+}
